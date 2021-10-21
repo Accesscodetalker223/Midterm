@@ -272,8 +272,8 @@ What are the testing Framework available in java?
 A. testNG and jUnit.
 
 Difference between jUnit and testNG?
-A. JUnit is an open-source framework used to trigger and write tests. TestNG is a Java-based framework that is an
-   upgraded option for running tests.
+A. JUnit is an open-source framework used to trigger and write tests.
+   TestNG is a Java-based framework that is an upgraded option for running tests.
 
 What are the dependencies for this project?
 A. mongo-java-driver-3.4.0.jar
