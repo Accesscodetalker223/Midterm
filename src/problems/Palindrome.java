@@ -10,13 +10,30 @@ public class Palindrome {
          */
 
         //implementation here...
-
+        String m = "MOM";
+        if (isPalindrome(m)) {
+            System.out.println("\""+m+"\" is Palindrome");
+        }
+        else {
+            System.out.println("\""+m+"\" is not palindrome");
+        }
 
     }
-    public static void checkPalindrome(String string){
 
-        //implementation here...
+    public static boolean isPalindrome(String string) {
 
+        String word = string;
+        StringBuilder palindrome = new StringBuilder();
+        int wordLength = word.length();
 
+        for (int i = 0; i < wordLength; i++) {
+            palindrome.append(word.charAt(wordLength - 1 - i));
+        }
+        String revPalindrome = new String(palindrome);
+
+        if (word.matches(revPalindrome)) return true;
+        else return false;
     }
 }
+
+
