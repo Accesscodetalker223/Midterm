@@ -98,6 +98,9 @@ public class EmployeeInfo extends EmployeeAbstract implements Employee {
 		System.out.println("employees should get 30 min paid break a day");
 	}
 
+	public void setSalary(int i) {
+	}
+
 	private static class DateConversion {
 		public DateConversion(Months months){}
 		public static String convertDate(String date) {
